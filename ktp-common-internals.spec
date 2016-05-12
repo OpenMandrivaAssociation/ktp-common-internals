@@ -43,8 +43,6 @@ BuildRequires:	cmake(KF5XmlGui)
 BuildRequires:	cmake(TelepathyQt5)
 BuildRequires:	cmake(TelepathyLoggerQt)
 BuildRequires:	pkgconfig(shared-mime-info)
-BuildRequires:	pkgconfig(alsa)
-BuildRequires:	pkgconfig(drumstick-alsa) >= 1.0.1
 
 %description
 Internals for the KDE Telepathy IM suite
