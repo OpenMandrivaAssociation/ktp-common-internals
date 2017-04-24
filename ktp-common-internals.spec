@@ -1,6 +1,6 @@
 Summary:	Internals for the KDE Telepathy IM suite
 Name:		ktp-common-internals
-Version:	16.12.2
+Version:	17.04.0
 Release:	1
 Epoch:		1
 License:	GPLv2+
@@ -94,7 +94,7 @@ Development files for KTpCommonInternals
 %{_datadir}/katepart5/syntax/ktpdebugoutput.xml
 %{_libdir}/*.so
 
-%files
+%files -f all.lang
 %{_bindir}/ktp-debugger
 %{_libdir}/libexec/ktp-proxy
 %{_libdir}/qt5/plugins/kaccounts/daemonplugins/kaccounts_ktp_plugin.so
@@ -121,3 +121,6 @@ Development files for KTpCommonInternals
 
 %install
 %ninja_install -C build
+%find_lang ktp-common-internals
+%find_lang ktp-debugger
+cat *.lang >all.lang
