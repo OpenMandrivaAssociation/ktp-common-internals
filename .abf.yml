@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   ktp-common-internals-17.12.1.tar.xz: b7e97b40ef26683bb72d9165d74cc8e0205a70be
+sources:
+  ktp-common-internals-17.12.2.tar.xz: 35f7c04713f074c9bd6c6566fa96feb3e43896af
