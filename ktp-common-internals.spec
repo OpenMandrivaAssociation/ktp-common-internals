@@ -60,6 +60,7 @@ BuildRequires:	pkgconfig(shared-mime-info)
 BuildRequires:	pkgconfig(mission-control-plugins)
 BuildRequires:	pkgconfig(libotr)
 BuildRequires:	pkgconfig(libgcrypt)
+BuildRequires:	pkgconfig(libaccounts-glib)
 
 %description
 Internals for the KDE Telepathy IM suite
