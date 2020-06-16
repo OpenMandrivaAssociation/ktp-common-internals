@@ -1,7 +1,7 @@
 Summary:	Internals for the KDE Telepathy IM suite
 Name:		ktp-common-internals
 Version:	20.04.2
-Release:	1
+Release:	2
 Epoch:		1
 License:	GPLv2+
 Group:		Graphical desktop/KDE
@@ -61,6 +61,8 @@ BuildRequires:	pkgconfig(mission-control-plugins)
 BuildRequires:	pkgconfig(libotr)
 BuildRequires:	pkgconfig(libgcrypt)
 BuildRequires:	pkgconfig(libaccounts-glib)
+BuildRequires:	telepathy-accounts-signon
+Requires:	telepathy-accounts-signon
 
 %description
 Internals for the KDE Telepathy IM suite
