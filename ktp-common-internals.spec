@@ -1,6 +1,6 @@
 Summary:	Internals for the KDE Telepathy IM suite
 Name:		ktp-common-internals
-Version:	20.04.3
+Version:	20.07.80
 Release:	1
 Epoch:		1
 License:	GPLv2+
