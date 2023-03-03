@@ -83,11 +83,11 @@ Internals for the KDE Telepathy IM suite
 %package -n %{devname}
 Summary: Development files for KTpCommonInternals
 Group: Development/KDE and Qt
-Requires: %{mklibname KTpCommonInternals 9} = %{EVRD}
-Requires: %{mklibname KTpLogger 9} = %{EVRD}
-Requires: %{mklibname KTpModels 9} = %{EVRD}
-Requires: %{mklibname KTpOTR 9} = %{EVRD}
-Requires: %{mklibname KTpWidgets 9} = %{EVRD}
+Requires: %{mklibname KTpCommonInternals} = %{EVRD}
+Requires: %{mklibname KTpLogger} = %{EVRD}
+Requires: %{mklibname KTpModels} = %{EVRD}
+Requires: %{mklibname KTpOTR} = %{EVRD}
+Requires: %{mklibname KTpWidgets} = %{EVRD}
 
 %description -n %{devname}
 Development files for KTpCommonInternals
